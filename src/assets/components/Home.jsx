@@ -1,5 +1,6 @@
 import AboutUs from "./AboutUs.jsx";
 import QuickLinks from "./QuickLinks.jsx";
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 const Home = () => {
     return (
         <>
@@ -9,7 +10,7 @@ const Home = () => {
                     <h1 className="">MUHAMMAD IRFAN SHAHZAD</h1>
                     <h2> Lecturer Computer Science</h2>
                     <p>Shaping the future with quality education and innovation.</p>
-                    <button className="cta-btn"><a href="./Downloads">DOWNLOADS</a></button>
+                    <button className="cta-btn"><Link to="./Downloads">DOWNLOADS</Link></button>
                 </div>
             </header>
         </div>
