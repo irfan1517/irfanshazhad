@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.title-text {
+     font-size: clamp(1.8rem, 5vw, 2.5rem);
+     font-weight: 700;
+     position: relative;
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Minimum height is the full viewport height */
+}
+
+.main-content {
+  flex: 1; /* This tells the main content to grow and fill all available space */
+}
