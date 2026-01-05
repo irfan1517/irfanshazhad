@@ -22,9 +22,9 @@ const Navbar = () => {
       
       {/* Menu Links */}
       <ul className={`nav-links ${isOpen ? "open" : ""}`}>
-        <li><link to="/" onClick={() => setIsOpen(false)}>Home</link></li>
-        <li><link to="/downloads" onClick={() => setIsOpen(false)}>Downloads</link></li>
-        <li><link to="/contact" onClick={() => setIsOpen(false)}>Contact</link></li>
+        <li><Link to="/" onClick={() => setIsOpen(false)}>Home</Link></li>
+        <li><Link to="/downloads" onClick={() => setIsOpen(false)}>Downloads</Link></li>
+        <li><Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link></li>
         
       </ul>
 
